@@ -1,8 +1,12 @@
+import "reflect-metadata";
 import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
 import App from './App';
 import * as serviceWorker from './serviceWorker';
+import { Model } from './model';
+
+console.log(Model);
 
 ReactDOM.render(<App />, document.getElementById('root'));
 
